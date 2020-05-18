@@ -10,7 +10,7 @@ import argparse
 
 
 def install():
-    "To install in the users site-packaes directory"
+    "To install in the users site-packages directory"
 
     site_path = os.path.join(site.getusersitepackages(), "pep582.py")
     site_pth = os.path.join(site.getusersitepackages(), "pep582.pth")
